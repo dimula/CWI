@@ -1,0 +1,201 @@
+﻿$font-open-sans-normal: 'Open Sans', sans-serif;
+$font-open-sans-light: 'Open Sans Light', sans-serif;
+$font-open-sans-light-italic: 'Open Sans Light Italic', sans-serif;
+$font-open-sans-semibold: 'Open Sans Semibold', sans-serif;
+$open-sans-cond-light: 'Open Sans Cond Light', sans-serif;
+$font-open-sans-italic: 'Open Sans Italic', sans-serif;
+
+//** Global background color of theme-default
+$theme-default-background: #272a3e;
+$theme-default-lighter-background: #3B405E; //#626B9D;
+$app-main-clickable-color: #4866FE;
+
+$kendo-grid-background-color: $theme-default-background;
+$kendo-grid-font-family: $font-open-sans-normal;
+$kendo-grid-font-size: 14px;
+$kendo-grid-header-font-color: #CFD6EF;
+$kendo-grid-header-background-color: #191C29;
+$kendo-grid-header-border-color: #272A3E;
+
+$kendo-grid-selected-row-font-size: 14px;
+$kendo-grid-selected-row-font-family: $font-open-sans-normal;
+$kendo-grid-selected-row-font-color: #CFD6EF;
+$kendo-grid-selected-row-background-color: #59195D; //#922998; purple //#12141E original dark
+
+$kendo-grid-marquee-background-color: #4866FE;
+
+$kendo-grid-row-font-size: 14px;
+$kendo-grid-row-font-family: $font-open-sans-normal;
+$kendo-grid-row-font-color: #FFFFFF; //#A7ADC3;
+$kendo-grid-row-background-color: #1D2031;
+$kendo-grid-space-between-rows: 2px;
+$kendo-grid-line-height: 28px;
+$kendo-grid-border-width: 0px;
+
+$kendo-grid-row-hover-font-size: 14px;
+$kendo-grid-row-hover-font-family: $font-open-sans-normal;
+$kendo-grid-row-hover-font-color: #ffffff; // #A0A6BC; 
+$kendo-grid-row-hover-background-color: #1A1D2C;
+
+$kendo-grid-pager-numeric-buttons-font-size: 13px;
+$kendo-grid-pager-numeric-buttons-font-family: $font-open-sans-light;
+$kendo-grid-pager-numeric-buttons-font-color: #A0A6BC;
+$kendo-grid-pager-background-color: $theme-default-background;
+$kendo-grid-pager-buttons-border-color: #000000;
+$kendo-grid-pager-buttons-hover-background-color: transparent;
+$kendo-grid-pager-selected-button-background-color: #000000;
+
+$kendo-grid-pager-total-pages-info-font-size: 13px;
+$kendo-grid-pager-total-pages-info-font-family:  $font-open-sans-light;
+$kendo-grid-pager-total-pages-info-font-color: #CFD6EF;
+
+$kendo-grid-pager-info-font-size: 13px;
+$kendo-grid-pager-info-font-family: $font-open-sans-light;
+$kendo-grid-pager-info-font-color: #CFD6EF;
+
+$kendo-grid-tooltip-background-color: #43475F;
+$kendo-grid-tooltip-font-family: $font-open-sans-normal;
+$kendo-grid-tooltip-font-size: 13px;
+$kendo-grid-tooltip-font-color: #CFD6EF;
+
+$kendo-grid-popup-numeric-date-text-width: 220px;
+$kendo-grid-popup-background-color: #33374E;
+$kendo-grid-popup-filter-help-text-font-size: 13px;
+$kendo-grid-popup-filter-help-text-font-family: $font-open-sans-light-italic;
+$kendo-grid-popup-filter-help-text-font-color: #A7ADC3;
+$kendo-grid-popup-filter-input-and-dropdown-background: #282C40;
+
+$kendo-grid-popup-filter-dropdown-font-family: $font-open-sans-light;
+$kendo-grid-popup-filter-dropdown-font-color: #CFD6EF;
+$kendo-grid-popup-filter-dropdown-font-size: 13px;
+
+$kendo-grid-popup-filter-input-and-dropdown-active-background: #1F2232;
+$kendo-grid-popup-filter-space-between-inputs-and-dropdowns: 10px;
+
+$kendo-grid-popup-filter-calendar-background-color: #33374E;
+$kendo-grid-popup-filter-calendar-footer-info-font-family: $font-open-sans-normal;
+$kendo-grid-popup-filter-calendar-footer-info-font-color: $app-main-clickable-color;
+$kendo-grid-popup-filter-calendar-footer-info-font-size: 14px; 
+
+$kendo-grid-popup-filter-calendar-content-dates-font-family: $font-open-sans-normal;
+$kendo-grid-popup-filter-calendar-content-dates-font-color: #A7ADC3;
+$kendo-grid-popup-filter-calendar-content-prev-next-dates-font-color: #767B90;
+$kendo-grid-popup-filter-calendar-content-dates-font-size: 13px;
+
+$kendo-grid-popup-filter-calendar-content-selected-date-background-color: #000000;
+$kendo-grid-popup-filter-calendar-content-selected-date-color: #FBFBFB;
+
+$kendo-grid-popup-filter-calendar-header-info-font-family: $font-open-sans-normal;
+$kendo-grid-popup-filter-calendar-header-info-font-color: $app-main-clickable-color;
+$kendo-grid-popup-filter-calendar-header-info-font-size: 14px;
+
+$kendo-grid-primary-button-background-color: $app-main-clickable-color;
+$kendo-grid-primary-button-background-color-hover: #3253FD;
+$kendo-grid-primary-button-font-family: $font-open-sans-normal;
+$kendo-grid-primary-button-font-size: 13px;
+$kendo-grid-primary-button-font-color: #FFFFFF;
+
+$kendo-grid-reset-button-background-color: #282C40;
+$kendo-grid-reset-button-background-color-hover: #131623;
+$kendo-grid-reset-button-font-family: $font-open-sans-normal;
+$kendo-grid-reset-button-font-size: 13px;
+$kendo-grid-reset-button-font-color: $app-main-clickable-color;
+
+$view-font-size: 15px;
+$view-font-color: #CFD6EF;
+$view-background-hover: #33374E;
+
+$view-default-font-family:  $font-open-sans-normal;
+$view-default-font-color: #D4D7E2; //#A7ADC3;
+$view-default-font-size: 15px;
+$view-default-background-color: $theme-default-background;
+$view-default-background-selected: #12141E;
+
+$view-simple-font-family: $font-open-sans-light; 
+$view-simple-font-color: #A7ADC3;
+$view-simple-font-size: 15px;
+$view-simple-background-color: $theme-default-background;
+$view-simple-background-selected: #12141E;
+
+$view-in-collection-font-family:  $font-open-sans-light;
+$view-in-collection-font-color: #A7ADC3;
+$view-in-collection-font-size: 15px;
+$view-in-collection-background-color: #1C1E2D;
+$view-in-collection-background-color-selected: #12141E;
+
+$collection-font-family:  $font-open-sans-light;
+$collection-font-size: 15px;
+$collection-font-color: #CFD6EF;
+$collection-background-color: $theme-default-lighter-background; //$theme-default-background;
+$collection-fa-angle-down: "\f107";
+$collection-background-hover: #33374E;
+
+$cases-count-font-family:  $font-open-sans-normal;
+$cases-count-font-color: #A7ADC3;
+$cases-count-font-size: 13px;
+$cases-count-color: #EEF1FC;
+$cases-count-height: 21px;
+
+$priority-indication-width: 5px;
+$priority-indication-height: 10px;
+$priority-inidication-zero-cases-color: #7D7D7D;
+
+$maintoolbar-worklist-navbar-background-color: #191C29;
+$maintoolbar-worklist-navbar-brand-font-family: $open-sans-cond-light;
+$maintoolbar-worklist-navbar-brand-font-color: #E3E7F7;
+$maintoolbar-worklist-navbar-brand-font-size: 18px;
+
+$maintoolbar-worklist-navbar-right-last-updated-title-font-family: $font-open-sans-light;
+$maintoolbar-worklist-navbar-right-last-updated-title-font-color: #CFD6EF;
+$maintoolbar-worklist-navbar-right-last-updated-title-font-size: 15px;
+
+$maintoolbar-worklist-navbar-right-last-updated-value-font-family: $font-open-sans-semibold;
+$maintoolbar-worklist-navbar-right-last-updated-value-font-color: #CFD6EF;
+$maintoolbar-worklist-navbar-right-last-updated-value-font-size: 15px;
+
+$grid-header-filters-panel-title-font-family: $font-open-sans-light;
+$grid-header-filters-panel-title-font-color: #A7ADC3;
+$grid-header-filters-panel-title-font-size: 14px;
+
+$grid-header-filters-panel-view-title-font-family: $font-open-sans-normal;
+$grid-header-filters-panel-view-title-font-color: #4B66EF;
+$grid-header-filters-panel-view-title-font-size: 20px;
+
+$grid-header-filters-panel-clear-all-font-family: $font-open-sans-light;
+$grid-header-filters-panel-clear-all-font-color: #A7ADC3;
+$grid-header-filters-panel-clear-all-font-size: 14px;
+
+$grid-header-filters-panel-filter-item-background-color: #1F2232;
+$grid-header-filters-panel-filter-item-font-family: $font-open-sans-light;
+$grid-header-filters-panel-filter-item-font-color: #A0A6BC;
+$grid-header-filters-panel-filter-item-font-size: 13px;
+
+$user-details-font-family:  $font-open-sans-light;
+$user-details-font-color:  #A7ADC3;
+$user-details-font-size: 14px;
+
+$search-grid-input-placeholder-font-family: $font-open-sans-light-italic;
+$search-grid-input-placeholder-font-color: #A8AEC4;
+$search-grid-input-placeholder-font-size: 14px;
+$search-grid-input-background-color: #1F2232;
+
+$public-views-groups-filter-dropdown-font-family: $font-open-sans-light;
+$public-views-groups-filter-dropdown-font-color: #CFD6EF;
+$public-views-groups-filter-dropdown-font-size: 13px;
+$public-views-groups-filter-dropdown-menue-items-font-family: $font-open-sans-light;
+$public-views-groups-filter-dropdown-menue-items-font-color: #CFD6EF;
+$public-views-groups-filter-dropdown-menue-items-font-size: 13px;
+$public-views-groups-filter-serach-font-family: $font-open-sans-light;
+$public-views-groups-filter-serach-font-color: #CFD6EF;
+$public-views-groups-filter-serach-font-size: 13px;
+$public-views-groups-filter-search-dropdown-background: #1A1D2B;
+$public-views-groups-filter-container-dropdown-background: #1A1D2B;
+$public-views-groups-filter-input-background-color: #1F2232;
+$public-views-groups-filter-input-selected-background-color: #161924;
+$public-views-groups-filter-dropdown-selected-font-color: #F0F3FF;
+$public-views-groups-filter-input-and-dropdown-background: #282C40;
+$public-views-groups-filter-input-and-dropdown-font-color: #CFD6EF;
+$public-views-groups-filter-border-color: #1F2232;
+$public-views-groups-filter-magnify-color: #4562F1;
+ 
+
