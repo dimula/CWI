@@ -6,11 +6,13 @@
   [pageSize]="pageSize"
   [skip]="skip"
   [pageable]="true"
-  [height]="400"
+  [height]="600"
   (pageChange)="pageChange($event)"
   [filterable]="false"
   scrollable="true"
   [sortable]="{ mode: 'multiple' }"
+  [resizable]=true
+  [selectable]="{ mode: 'multiple' }"
 >
 <kendo-grid-column
           *ngFor="let column of columns"

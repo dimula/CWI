@@ -4,7 +4,7 @@ import { HttpClient, HttpHeaders} from '@angular/common/http';
 
 import { LoginRequest } from '../models/loginRequest';
 import { LoginResponse } from '../models/loginResponse';
-import { CASES, Case } from '../models/casesMock';
+import { CASES, Case, CASES_RESPONSE } from '../models/casesMock';
 
 const httpOptions ={
   headers: new HttpHeaders ({
